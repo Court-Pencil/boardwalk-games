@@ -71,6 +71,13 @@ h2{
     margin-bottom: 1.5rem;
 }
 
+/* Game library */
+
+#new-games .card,
+#fav-games .card {
+   border: none;
+} 
+
 /* grid visualisation CSS for testing */
 /* .container,
 .row {
@@ -91,6 +98,8 @@ h2{
         min-height: 191px;
     }
 } 
+
+
 
 /* Large devices (tablets, 992px and up)*/
 @media screen and (min-width: 992px) {
